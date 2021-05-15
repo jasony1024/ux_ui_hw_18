@@ -389,6 +389,10 @@ a:active{
         font-size: 160px;
     }
 
+    p{
+        font-size: 15px;
+    }
+
     .intro{
         height: 1050px;
     }
@@ -417,7 +421,7 @@ a:active{
 
 
     .intro .right p{
-        width:575px;
+        width:550px;
         text-align:left;
         padding-bottom: 15px;
         padding-right: 0px;
@@ -441,6 +445,10 @@ a:active{
         margin-left: 15px;
     }
 
+    .experience .card {
+        width:550px;
+    }
+
     .card img{
         padding-top:30px;
         padding-left:25px;
@@ -454,12 +462,16 @@ a:active{
 @media (max-width: 750px) {
     
     h1{
-        font-size: 125px;
+        font-size: 100px;
         }
+
+    p{
+        font-size:14px;
+    }
 
     .intro{
         width:100%;
-        height: 900px;
+        height: 850px;
         background-color: #B74125;
         padding-top:0px;
         padding-bottom: 0px;
@@ -483,7 +495,7 @@ a:active{
         margin-top:10px;
     }
     .intro .right p{
-        width:450px;
+        width:300px;
         padding-bottom: 15px;
         padding-right: 0px;
         margin-right: auto;
@@ -512,6 +524,10 @@ a:active{
         background-color: rgb( 255, 255, 255, .7);
         margin-right:auto;
         margin-left: auto;
+    }
+
+    .experience .card {
+        width: 250px;
     }
 
     .ux_design .card {
